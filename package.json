@@ -1,0 +1,27 @@
+{
+  "name": "morse-lib",
+  "version": "1.0.0",
+  "description": "A library to encode text into integers using Morse code style for machine learning applications.",
+  "main": "src/morseCode.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ademchaoua/morse-lib.git"
+  },
+  "keywords": [
+    "morse",
+    "code",
+    "encoding",
+    "machine-learning",
+    "text-to-int",
+    "morse-code"
+  ],
+  "author": "Adem Chaoua",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
